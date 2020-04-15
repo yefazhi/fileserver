@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.qianlicode.document</groupId>
 	<artifactId>dfs-core</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>dfs-core</name>
 	<description>File service centre project</description>
 
