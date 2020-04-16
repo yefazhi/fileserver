@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>千里图床—上传</title>
+		<link rel="stylesheet" type="text/css" href="/scss/shop.css" />
+		<link rel="stylesheet" type="text/css" href="/scss/main.css"/>
+		<link rel="stylesheet" href="/scss/header.css" />
+		<link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.css"/>
+	</head>
+	<body>
+		<div id="max">
+		<header>
+					<div class="min">
+						<ul class="header_ul_left">
+							<li class="glyphicon glyphicon-home"> <a href="index.html" class="aa">图片列表</a></li>
+						</ul>
+					</div>
+		</header>
+				<nav>
+				<div class="nav_min">
+					<div class="nav_top">
+						<div class="nav_top_one"><a href="#"><img src="/img/logo1.jpg"/></a></div>
+						<!--<div class="nav_top_two"><input type="text"/><button>上传</button></div>-->
+						<div class="nav_top_two">
+							<form action="/upload" method="post" enctype="multipart/form-data">
+								<input type="file" name="file">
+								<input type="submit" value="上传" style="width: 60px; height:29.5px">
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</nav>
+				</div>
+			<div class="crumb-wrap">
+			<div class="w">
+			</div>
+		</div>
+	</body>
+
+	<script src="/js/jquery1.9.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/js.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		function addToCart(){
+		    $("#itemForm").submit();
+		}
+	</script>
+
+</html>
